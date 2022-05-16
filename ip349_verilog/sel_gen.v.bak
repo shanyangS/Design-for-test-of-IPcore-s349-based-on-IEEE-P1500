@@ -1,0 +1,7 @@
+module sel_gen
+(
+	input[2:0] sel_i,
+	output[] sel_o,
+);
+
+

@@ -1,0 +1,39 @@
+`timescale 1ns/1ps  
+
+module register_right_tb;  
+
+reg clk;  
+
+reg [3:0] din;  
+
+wire [3:0] dout;  
+
+always  
+
+begin  
+
+#10 clk = ~clk;  
+
+end  
+
+initial  
+
+begin  
+
+clk = 1'b0;  
+
+din = 4'b1010;  
+
+din = 4'b1111;  
+
+#20 din = 16'b1000;  
+
+#20 din = 16'b0101;  
+#100;  
+end  
+
+register_right U1(.clk(clk), .din(din), .dout(dout));  
+
+
+endmodule
+

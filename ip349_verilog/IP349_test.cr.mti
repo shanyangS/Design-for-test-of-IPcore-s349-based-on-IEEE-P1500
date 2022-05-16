@@ -1,0 +1,49 @@
+C:/ip349_verilog/BasicCircuit.v {1 {vlog -work work -vopt -stats=none C:/ip349_verilog/BasicCircuit.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module my_and
+-- Compiling module my_or
+-- Compiling module my_not
+-- Compiling module D_FF
+-- Compiling module mux21
+-- Compiling module shift_register
+-- Compiling module Id_UR
+
+Top level modules:
+	my_and
+	my_or
+	my_not
+	D_FF
+	mux21
+	shift_register
+	Id_UR
+
+} {} {}} C:/ip349_verilog/WIR.v {1 {vlog -work work -vopt -stats=none C:/ip349_verilog/WIR.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module WIR
+
+Top level modules:
+	WIR
+
+} {} {}} C:/ip349_verilog/WBY.v {1 {vlog -work work -vopt -stats=none C:/ip349_verilog/WBY.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module WBY
+
+Top level modules:
+	WBY
+
+} {} {}} C:/ip349_verilog/s349.v {1 {vlog -work work -vopt -stats=none C:/ip349_verilog/s349.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module dff
+-- Compiling module s349
+
+Top level modules:
+	s349
+
+} {} {}} C:/ip349_verilog/WBR.v {1 {vlog -work work -vopt -stats=none C:/ip349_verilog/WBR.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module WBR
+
+Top level modules:
+	WBR
+
+} {} {}}
