@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/modeltech64_2020.4/examples
 vD_FF
-Z0 !s110 1652533619
+Z0 !s110 1652778560
 !i10b 1
 !s100 :HWhbj0]knaMVz9hUVkQ70
 IA=;LJch2B^?`zz@^0XHN_3
@@ -24,7 +24,7 @@ Z6 OL;L;10.6d;65
 r1
 !s85 0
 31
-Z7 !s108 1652533619.000000
+Z7 !s108 1652778560.000000
 Z8 !s107 C:/IC/verilog_project/ip349_verilog/BasicCircuit.v|
 Z9 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/IC/verilog_project/ip349_verilog/BasicCircuit.v|
 !i113 1
@@ -75,7 +75,7 @@ R10
 R11
 n@id_@u@r
 vId_UR_tb
-Z17 !s110 1652533620
+Z17 !s110 1652778561
 !i10b 1
 !s100 4IgiEIajUl1ZdJiZTU@272
 IX5O9bgllcAgE=8AT:Q1hD0
@@ -89,7 +89,7 @@ R6
 r1
 !s85 0
 31
-Z18 !s108 1652533620.000000
+Z18 !s108 1652778561.000000
 !s107 C:/IC/verilog_project/ip349_verilog/Id_UR_tb.v|
 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/IC/verilog_project/ip349_verilog/Id_UR_tb.v|
 !i113 1
@@ -266,6 +266,27 @@ R16
 !i113 1
 R10
 R11
+vsel_gen
+R17
+!i10b 1
+!s100 dnmh;Oo<z9;bFk`R;GH7I2
+ICY1LAkNQXkm8Ta9QWXKeO1
+R1
+R2
+w1652774968
+8C:/IC/verilog_project/ip349_verilog/sel_gen.v
+FC:/IC/verilog_project/ip349_verilog/sel_gen.v
+L0 1
+R6
+r1
+!s85 0
+31
+R18
+!s107 C:/IC/verilog_project/ip349_verilog/sel_gen.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/IC/verilog_project/ip349_verilog/sel_gen.v|
+!i113 1
+R10
+R11
 vshift_register
 R0
 !i10b 1
@@ -312,7 +333,7 @@ R10
 R11
 n@shift_@register
 vshift_register_tb
-R0
+R17
 !i10b 1
 !s100 :ND8^klCk3neTk5538^731
 IR@mj];58e>nS^bamIC8]31
@@ -326,7 +347,7 @@ R6
 r1
 !s85 0
 31
-R7
+R18
 Z24 !s107 C:/IC/verilog_project/ip349_verilog/shift_tb.v|
 Z25 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/IC/verilog_project/ip349_verilog/shift_tb.v|
 !i113 1
@@ -350,6 +371,27 @@ r1
 !s108 1652516885.000000
 R24
 R25
+!i113 1
+R10
+R11
+vtop
+R0
+!i10b 1
+!s100 KHHbSfW=MEdBA9X3OA[B40
+IKd[CKL<PRFoj:[hAYl?U22
+R1
+R2
+w1652778559
+8C:/IC/verilog_project/ip349_verilog/top.v
+FC:/IC/verilog_project/ip349_verilog/top.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/IC/verilog_project/ip349_verilog/top.v|
+!s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/IC/verilog_project/ip349_verilog/top.v|
 !i113 1
 R10
 R11
@@ -434,7 +476,7 @@ R6
 r1
 !s85 0
 31
-R7
+R18
 !s107 C:/IC/verilog_project/ip349_verilog/WBY_tb.v|
 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/IC/verilog_project/ip349_verilog/WBY_tb.v|
 !i113 1
@@ -442,13 +484,13 @@ R10
 R11
 n@w@b@y_tb
 vWIR
-R0
+R17
 !i10b 1
 !s100 Ac:H8CEA2jB2J0TSZea6G0
 I=HjBFHzT=eQHN]Yl8cQTh3
 R1
 R2
-w1652533456
+w1652621532
 8C:/IC/verilog_project/ip349_verilog/WIR.v
 FC:/IC/verilog_project/ip349_verilog/WIR.v
 L0 1
@@ -456,7 +498,7 @@ R6
 r1
 !s85 0
 31
-R7
+R18
 !s107 C:/IC/verilog_project/ip349_verilog/WIR.v|
 !s90 -reportprogress|300|-work|work|-novopt|-stats=none|C:/IC/verilog_project/ip349_verilog/WIR.v|
 !i113 1

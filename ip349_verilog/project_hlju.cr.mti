@@ -1,4 +1,19 @@
-C:/IC/verilog_project/ip349_verilog/BasicCircuit.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/BasicCircuit.v
+C:/IC/verilog_project/ip349_verilog/WBY.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/WBY.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module WBY
+
+Top level modules:
+	WBY
+
+} {} {}} C:/IC/verilog_project/ip349_verilog/s349.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/s349.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module dff
+-- Compiling module s349
+
+Top level modules:
+	s349
+
+} {} {}} C:/IC/verilog_project/ip349_verilog/BasicCircuit.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/BasicCircuit.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module my_and
 -- Compiling module my_or
@@ -17,12 +32,12 @@ Top level modules:
 	shift_register
 	Id_UR
 
-} {} {}} C:/IC/verilog_project/ip349_verilog/WBY.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/WBY.v
+} {} {}} C:/IC/verilog_project/ip349_verilog/sel_gen.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/sel_gen.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module WBY
+-- Compiling module sel_gen
 
 Top level modules:
-	WBY
+	sel_gen
 
 } {} {}} C:/IC/verilog_project/ip349_verilog/WIR_tb.v {2 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/WIR_tb.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -31,6 +46,28 @@ Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 
 Top level modules:
 	WIR_tb
+
+} {} {}} C:/IC/verilog_project/ip349_verilog/WIR.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/WIR.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module WIR
+
+Top level modules:
+	WIR
+
+} {} {}} C:/IC/verilog_project/ip349_verilog/top.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/top.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module top
+
+Top level modules:
+	top
+
+} {} {}} C:/IC/verilog_project/ip349_verilog/shift_tb.v {2 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/shift_tb.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+** Warning: C:/IC/verilog_project/ip349_verilog/shift_tb.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling module shift_register_tb
+
+Top level modules:
+	shift_register_tb
 
 } {} {}} C:/IC/verilog_project/ip349_verilog/WBR.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/WBR.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -47,26 +84,13 @@ Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 Top level modules:
 	WBY_tb
 
-} {} {}} C:/IC/verilog_project/ip349_verilog/shift_tb.v {2 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/shift_tb.v
+} {} {}} C:/IC/verilog_project/ip349_verilog/WBR_tb.v {2 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/WBR_tb.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
-** Warning: C:/IC/verilog_project/ip349_verilog/shift_tb.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
--- Compiling module shift_register_tb
+** Warning: C:/IC/verilog_project/ip349_verilog/WBR_tb.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
+-- Compiling module WBR_tb
 
 Top level modules:
-	shift_register_tb
-
-} {} {}} C:/IC/verilog_project/ip349_verilog/top.v {0 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/top.v
-Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module top
-** Error: (vlog-13069) C:/IC/verilog_project/ip349_verilog/top.v(9): near "output": syntax error, unexpected output, expecting ')'.
-
-} {4.0 5.0} {}} C:/IC/verilog_project/ip349_verilog/s349.v {1 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/s349.v
-Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module dff
--- Compiling module s349
-
-Top level modules:
-	s349
+	WBR_tb
 
 } {} {}} C:/IC/verilog_project/ip349_verilog/Id_UR_tb.v {2 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/Id_UR_tb.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -75,13 +99,5 @@ Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 
 Top level modules:
 	Id_UR_tb
-
-} {} {}} C:/IC/verilog_project/ip349_verilog/WBR_tb.v {2 {vlog -work work -novopt -stats=none C:/IC/verilog_project/ip349_verilog/WBR_tb.v
-Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
-** Warning: C:/IC/verilog_project/ip349_verilog/WBR_tb.v(1): (vlog-2283) Extra semicolon in $unit (global) scope.
--- Compiling module WBR_tb
-
-Top level modules:
-	WBR_tb
 
 } {} {}}
